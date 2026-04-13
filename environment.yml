@@ -3,16 +3,11 @@ channels:
   - conda-forge
 dependencies:
   - python=3.11
-  - pip
+  - manim==0.20.1
   - ffmpeg
-  - cairo
-  - pango
-  - pkg-config
-  - scipy
-  - numpy
+  - pip
   - jupyterlab
-  - ipykernel
+  - ipywidgets
   - pip:
-      - manim==0.20.1
       - manim-slides
       - jupyterlab-mathjax3

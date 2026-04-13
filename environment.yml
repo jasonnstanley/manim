@@ -1,0 +1,18 @@
+name: manim-online
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - ffmpeg
+  - cairo
+  - pango
+  - pkg-config
+  - scipy
+  - numpy
+  - jupyterlab
+  - ipykernel
+  - pip:
+      - manim==0.20.1
+      - manim-slides
+      - jupyterlab-mathjax3

@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+python -m ipykernel install --user --name manim-online --display-name "Python (manim-online)"
+python -m pip install --upgrade pip
